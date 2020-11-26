@@ -10,7 +10,7 @@ MyFirstTest
     Log    Email Test 5.
     
 FirstSeleniumTest
-    Open Browser      https://egov.uscis.gov/casestatus/landing.do  ff  
+    Open Browserrr      https://egov.uscis.gov/casestatus/landing.do  ff  
     SeleniumLibrary.Input Text    id=receipt_number    LIN1923151093
     SeleniumLibrary.Click Element    name=initCaseSearch
     ${myText}    Get Text    xpath=/html/body/div[2]/form/div/div[1]/div/div/div[2]/div[3]/h1
