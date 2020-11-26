@@ -3,7 +3,11 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'echo "Fail!"; exit 1'
+                sh """
+                ls -ltr
+                echo ${WORKSPACE}
+                python -m robot.run ${WORKSPACE}\/test\/testsuit2.robot
+                   """
             }
         }
     }
