@@ -6,7 +6,6 @@ pipeline {
                 sh """
                 ls -ltr
                 echo ${WORKSPACE}
-                python -m robot.run ${WORKSPACE}\/test\/testsuit2.robot
                    """
             }
         }
