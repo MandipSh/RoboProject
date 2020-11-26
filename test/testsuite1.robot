@@ -4,7 +4,7 @@ Library  SeleniumLibrary
 *** Variable ***
 *** Test Cases ***
 MyFirstTest
-    Log    Hello World...  
+    Log    Hello World Hello Again...  
     Log    Welcome to Robot Framework. 
     Log    Jenkins Trigger Test 2
     Log    Email Test 5.
